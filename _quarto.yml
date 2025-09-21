@@ -1,6 +1,6 @@
 project:
   type: website
-
+  output-dir: docs # この行を追加
 website:
   title: "blog"
   navbar:

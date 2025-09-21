@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "こんにちは。これはQuartoで作成した私のウェブサイトです。\n\n\n数学的に最も美しいと言われる式の一つです。\n\\[e^{i\\pi} + 1 = 0\\]"
+  },
+  {
+    "objectID": "index.html#オイラーの公式",
+    "href": "index.html#オイラーの公式",
+    "title": "blog",
+    "section": "",
+    "text": "数学的に最も美しいと言われる式の一つです。\n\\[e^{i\\pi} + 1 = 0\\]"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
