@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>blog</title>
+<title>ブログ – blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -145,10 +116,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#私の数学ブログ" id="toc-私の数学ブログ" class="nav-link active" data-scroll-target="#私の数学ブログ">私の数学ブログ</a>
-  <ul class="collapse">
-  <li><a href="#オイラーの公式" id="toc-オイラーの公式" class="nav-link" data-scroll-target="#オイラーの公式">オイラーの公式</a></li>
-  </ul></li>
+  <li><a href="#ゼミ" id="toc-ゼミ" class="nav-link active" data-scroll-target="#ゼミ">ゼミ</a></li>
   </ul>
 </nav>
     </div>
@@ -157,7 +125,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">blog</h1>
+<h1 class="title">ブログ</h1>
 </div>
 
 
@@ -174,16 +142,43 @@ window.Quarto = {
 </header>
 
 
-<section id="私の数学ブログ" class="level1">
-<h1>私の数学ブログ</h1>
-<p>こんにちは。これはQuartoで作成した私のウェブサイトです。</p>
-<section id="オイラーの公式" class="level2">
-<h2 class="anchored" data-anchor-id="オイラーの公式">オイラーの公式</h2>
-<p>数学的に最も美しいと言われる式の一つです。</p>
-<p><span class="math display">\[e^{i\pi} + 1 = 0\]</span></p>
+<p>数学科の一年生。</p>
+<section id="ゼミ" class="level1">
+<h1>ゼミ</h1>
+<p>(イニシャルは名前・苗字の順番)</p>
+<p><strong>集合と位相(斎藤)</strong></p>
+<ul>
+<li><p>第一回：J.H君(5月28日(水))</p></li>
+<li><p>第二回：T.S君(6月4日(水))</p></li>
+<li><p>第三回：§2.1，僕(6月11日(水))</p></li>
+<li><p>第四回：§2.2，?(6月18日(水))</p></li>
+<li><p>第五回：?(6月25日(水))</p>
+<ul>
+<li>この日は先生に進路のことについて相談しに行って，少し遅れた後に圏論がどうのこうの話していた気がする．</li>
+</ul></li>
+<li><p>第六回：?(7月2日(水))</p></li>
+<li><p>第七回：?(7月9日(水))</p></li>
+</ul>
+<p><strong>代数</strong></p>
+<ul>
+<li><p>だいたい前期の水曜5限にやっていたと思うが，雪江代数1の第二章をそこそこ丁寧にやった後，四章の作用，共役，類等式に駆け足で触れた．環に関しては代数系入門の方でやるようになったが，下の数論序説のペースの方が早くなったので各々自習するという形になったと思う．</p>
+<p>同値関係をやっていなかったので同値類，またwell-difinedについて少し戸惑った．普遍性というのが何かについては未だにわかっていない．</p></li>
+</ul>
+<p><strong>数論序説</strong></p>
+<ul>
+<li><p>第一回：§2，K.T君(5月30日(金))</p></li>
+<li><p>第二回：§3，Y.S君(6月6日(金))</p></li>
+<li><p>第三回：§4，T.S君(6月13日(金))</p></li>
+<li><p>第四回：§5，J.H君(6月20日(金))</p></li>
+<li><p>第五回：§6，僕(6月27日(金))</p></li>
+<li><p>第六回：§7，僕(7月4日(金))</p></li>
+<li><p>第七回：§8，9，K.T君(9月19日(金))</p>
+<ul>
+<li>素元のところの話から，最後のPIDならばUFDというところが難しかった．</li>
+</ul></li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
